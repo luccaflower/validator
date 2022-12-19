@@ -38,6 +38,24 @@
             <version>2.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>lucca.flower</groupId>
+            <artifactId>union</artifactId>
+            <version>4.0</version>
+        </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/luccaflower/union</url>
+        </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/luccaflower/union</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
